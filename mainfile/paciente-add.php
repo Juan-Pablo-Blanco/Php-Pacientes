@@ -8,7 +8,7 @@
 <html lang="es">
     <head>
     <meta charset="UTF-8">
-    <title>Agregar Paciente</title>
+    <title>Agregar Pacientes</title>
     <script src="../js/jquery-3.6.0.min.js"></script>
     <style>
         body {
@@ -66,19 +66,19 @@
         <div>
             <label>Nombre</label>
             <span id="nombre-info" class="info"></span>
-            <input type="text" name="nombre" id="nombre" class="demoInputBox">
+            <input type="text" name="nombre" id="nombre" class="demoInputBox" required>
         </div>
 
         <div>
             <label>Apellido</label>
             <span id="apellido-info" class="info"></span>
-            <input type="text" name="apellido" id="apellido" class="demoInputBox">
+            <input type="text" name="apellido" id="apellido" class="demoInputBox" required>
         </div>
 
         <div>
             <label>Fecha de nacimiento</label>
             <span id="fecha-info" class="info"></span>
-            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="demoInputBox">
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="demoInputBox" required>
         </div>
 
         <div>
